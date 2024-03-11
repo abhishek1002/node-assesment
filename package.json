@@ -1,0 +1,22 @@
+{
+  "name": "read-process-excel-data",
+  "version": "1.0.0",
+  "description": "Assesment-1 to read and process excel sheet and write the calculated revenue back to the revenue columnn of the same excel sheet",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start-stream": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "Abhishek Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
